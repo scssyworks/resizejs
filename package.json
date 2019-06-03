@@ -1,0 +1,33 @@
+{
+  "name": "resizejs",
+  "version": "0.0.1",
+  "description": "Resize JS is a tiny plugin to implement responsive events",
+  "main": "dist/resize.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scssyworks/resizejs.git"
+  },
+  "keywords": [
+    "Responsive",
+    "Resize",
+    "Media Queries",
+    "Orientation",
+    "Device detection"
+  ],
+  "author": "Sachin Singh <contactsachinsingh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scssyworks/resizejs/issues"
+  },
+  "homepage": "https://github.com/scssyworks/resizejs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "rollup": "^1.13.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^5.0.0"
+  }
+}
